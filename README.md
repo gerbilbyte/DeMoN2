@@ -1,10 +1,10 @@
-![image](https://github.com/user-attachments/assets/ad882ca7-a637-47aa-bfc2-5c65c82e7dc7)
+![image](https://github.com/user-attachments/assets/588be537-28ed-465c-b206-78585c4105e1)
 
 
-# DeMoN
+# DeMoN II
 
 
-The DeMoN is hobby cartridge that was developed as a collaboration between three geeks who have a very healthy obsession with the Amiga, and skilled in both software and hardware development alike. It can be described as an Action Replay on steroids.
+The DeMoN II is hobby cartridge that was developed as a collaboration between three geeks who have a very healthy obsession with the Amiga, and skilled in both software and hardware development alike. It can be described as an Action Replay on steroids.
 
 ![image](https://github.com/user-attachments/assets/98fd00ce-8cad-4ac1-be52-16d5208ba2aa)
 
@@ -55,15 +55,17 @@ DeMoN was born.
 So what is so special about the DeMoN cartridge, and how does it compare against an original Action Replay 3 cartridge?
 In a nutshell:
 
-| FEATURE | Action Replay 3 | DeMoN Cartridge |
-|---------|----------|----------|
-| ROM size | 256kb | 256kb |
-| ROM type | Static | Flashable |
-| RAM size | 40kb | 1mb |
-| Number of Tools | Loads | Even more! |
-| Ramdisk? | No | Optional |
-| Detection | Always hidden | Can be visible |
-| Ability toggle? | Always On | Optional |
+| FEATURE | Action Replay 3 | DeMoN Cartridge | DeMoN II Cartridge
+|---------|----------|----------|----------|
+| ROM size | 256kb | 256kb | 256kb |
+| ROM type | Static | Flashable | Flashable |
+| RAM size | 40kb | 1mb | 1mb |
+| Number of Tools | Loads | Even more! | MORE!!! |
+| Ramdisk? | No | Optional | Optional |
+| Detection | Always hidden | Can be visible | Can be visible |
+| Ability toggle? | Always On | Optional | Optional |
+| USB-C port | No | No | Yes |
+| Amiga <--> PC File Transfer Ability? | No | Yes | Yes |
 
 Other features of the DeMoN cartridge:
 
@@ -86,7 +88,7 @@ See the [manual](https://github.com/dmcoles/ActionReplay5/blob/main/Action%20Rep
 
 ## Compatibility
 
-DeMoN cart is only compatible with A500 and A500+ computers.
+DeMoN II cart is only compatible with A500 and A500+ computers.
 
 It has been tested on the following kickstarts:
  * 1.3
