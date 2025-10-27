@@ -5,7 +5,7 @@
 
 
 The DeMoN II is hobby cartridge that was developed as a collaboration between three geeks who have a very healthy obsession with the Amiga, and skilled in both software and hardware development alike. It can be described as an Action Replay on steroids.
-It is the successor of the original DeMoN cartridge that can be found here #tk#
+It is the successor of the original DeMoN cartridge that can be found [here](https://github.com/gerbilbyte/DeMoN/).
 
 ![image](https://github.com/user-attachments/assets/98fd00ce-8cad-4ac1-be52-16d5208ba2aa)
 
@@ -34,7 +34,7 @@ This project will give a brief introduction, how it came to be, its features and
 
 ## A Brief History - Part Two
 
-For a brief history on the DeMoN cart please see the 'Brief History' blurb on the original DeMoN cart repo. #tk#
+For a brief history on the DeMoN cart please see the '[Brief History](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#a-brief-history)' blurb on the original DeMoN cart repo.
 
 Since the release of the original DeMoN, a few changes were made which made the cartridge a more superior piece of kit.
 Firstly, the idea of adding a USB port to allow serial transfer of data came into fruition. This was planned and the idea became a reality.
@@ -115,14 +115,12 @@ If you want to build your own then you will need the following:
 * A flat surface to solder on (such as a soldering mat on a desk, NOT the arm of a sofa or your partner's back)
 * Other soldering related tools and devices, you know the drill.
 
-In this project you can find the KiCad files that are used to build the PCBs for the project, along with the [Bill of Materials](https://github.com/gerbilbyte/DeMoN/tree/main/Kicad) (BOM) required for each build.
+In this project you can find the KiCad files that are used to build the PCBs for the project, along with the [Bill of Materials](https://github.com/gerbilbyte/DeMoN2/tree/main/Kicad) (BOM) required for each build.
 To make things even easier, Gerber files have also been included that you can use to send directly to your favourite freindly, or unfriendly, PCB manufacturer.
 
-[![image](https://github.com/user-attachments/assets/bd057ae8-4cc5-489a-a50f-bb349fded169)
-Follow this link to build the DIP32 ROM version of DeMoN](https://github.com/gerbilbyte/DeMoN/tree/main/Kicad/DeMoN-Flash)
 
 [![image](https://github.com/user-attachments/assets/6ff6edc8-36b6-45ae-bedc-bced24ccb2cd)
-Follow this link to build the PLCC32 ROM version of DeMoN](https://github.com/gerbilbyte/DeMoN/tree/main/Kicad/DeMoN-Flash-J)
+Follow this link to build the DeMoN2](https://github.com/gerbilbyte/DeMoN2/tree/main/Kicad/DeMoN_2.0_PLCC)
 
 I actually don't need to write any more about how to build one, the rest is quite straight forward.
 
@@ -212,4 +210,4 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
 
 **Fongo**, the creator of the Action Replay Replica and DeMoN Cases. His Printables page can be found [here](https://www.printables.com/@fongo2k_2502418).
 
-#tk# ATF programmer.
+The ATF150x programmer needed to program the CPLD can be found [here](https://github.com/roscopeco/atfprog-hardware).
