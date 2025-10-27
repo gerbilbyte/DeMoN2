@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATF1504AS-20JC84
+D  High-density, High-performance, Electrically-erasable Complex Programmable Logic Device  64 Macrocells  5 Product Terms per Macrocell, Expandable up to 40 per Macrocell  44, 68, 84, 100 Pins  7.5 ns Maximum Pin-to-pin Delay  Registered Operation up to 125 MHz  Enhanced Routing Resources  In-System Programmability (ISP) via JTAG  Flexible Logic Macrocell  D/T/Latch Configurable Flip-flops  Global and Individual Register Control Signals  Global and Individual Output Enable  Programm
+K
+F https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-0950-CPLD-ATF1504AS(L)-Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

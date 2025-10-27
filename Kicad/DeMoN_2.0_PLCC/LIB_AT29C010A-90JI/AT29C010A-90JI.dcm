@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT29C010A-90JI
+D  Fast Read Access Time  70 ns  5-volt Only Reprogramming  Sector Program Operation  Single Cycle Reprogram (Erase and Program)  1024 Sectors (128 Bytes/sector)  Internal Address and Data Latches for 128 Bytes  Two 8K Bytes Boot Blocks with Lockout  Internal Program Control and Timer  Hardware and Software Data Protection  Fast Sector Program Cycle Time  10 ms  DATA Polling for End of Program Detection  Low Power Dissipation  50 mA Active Current  100 A CMOS Standby Current  T
+K
+F https://www.mouser.de/datasheet/2/268/Atmel_AT29C010A-1180240.pdf
+$ENDCMP
+#
+#End Doc Library

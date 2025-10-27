@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at demon.v(146): always construct contains both blocking and non-blocking assignments

@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RV09AF-40-20K-B1M
+#/822540/647024/2.50/5/4/Variable Resistor
+DEF RV09AF-40-20K-B1M VR 0 30 Y Y 1 F N
+F0 "VR" 950 300 50 H V L CNN
+F1 "RV09AF-40-20K-B1M" 950 200 50 H V L CNN
+F2 "RV09AF4020KB1M" 950 100 50 H I L CNN
+F3 "http://www.taiwanalpha.com/downloads?target=products&id=71" 950 0 50 H I L CNN
+F4 "Potentiometers 20mm Linear 1MM" 950 -100 50 H I L CNN "Description"
+F5 "20" 950 -200 50 H I L CNN "Height"
+F6 "317-2090F-1M" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/RV09AF-40-20K-B1M?qs=ELfKxecGRndtlsh4tKfhTA%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Alpha (Taiwan)" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RV09AF-40-20K-B1M" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CCW 1 0 0 200 R 50 50 0 0 P
+X WIPER 2 0 -100 200 R 50 50 0 0 P
+X CW 3 0 -200 200 R 50 50 0 0 P
+X MH1 MH1 1100 0 200 L 50 50 0 0 P
+X MH2 MH2 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

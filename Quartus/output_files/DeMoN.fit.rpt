@@ -1,0 +1,590 @@
+Fitter report for DeMoN
+Wed Sep 24 09:02:35 2025
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Fitter Summary
+  3. Fitter Settings
+  4. Parallel Compilation
+  5. Pin-Out File
+  6. Fitter Resource Usage Summary
+  7. Input Pins
+  8. Output Pins
+  9. Bidir Pins
+ 10. All Package Pins
+ 11. Output Pin Default Load For Reported TCO
+ 12. Fitter Resource Utilization by Entity
+ 13. Non-Global High Fan-Out Signals
+ 14. Other Routing Usage Summary
+ 15. LAB External Interconnect
+ 16. LAB Macrocells
+ 17. Parallel Expander
+ 18. Shareable Expander
+ 19. Logic Cell Interconnection
+ 20. Fitter Device Options
+ 21. Fitter Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------+
+; Fitter Summary                                                              ;
++---------------------------+-------------------------------------------------+
+; Fitter Status             ; Successful - Wed Sep 24 09:02:35 2025           ;
+; Quartus II 64-Bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name             ; DeMoN                                           ;
+; Top-level Entity Name     ; DeMoN                                           ;
+; Family                    ; MAX7000S                                        ;
+; Device                    ; EPM7128SLC84-15                                 ;
+; Timing Models             ; Final                                           ;
+; Total macrocells          ; 45 / 128 ( 35 % )                               ;
+; Total pins                ; 63 / 68 ( 93 % )                                ;
++---------------------------+-------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Fitter Settings                                                                                              ;
++----------------------------------------------------------------------------+-----------------+---------------+
+; Option                                                                     ; Setting         ; Default Value ;
++----------------------------------------------------------------------------+-----------------+---------------+
+; Device                                                                     ; EPM7128SLC84-15 ;               ;
+; Fitter Effort                                                              ; Standard Fit    ; Auto Fit      ;
+; Use smart compilation                                                      ; Off             ; Off           ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On              ; On            ;
+; Enable compact report table                                                ; Off             ; Off           ;
+; Optimize Multi-Corner Timing                                               ; Off             ; Off           ;
+; Optimize Timing for ECOs                                                   ; Off             ; Off           ;
+; Regenerate full fit report during ECO compiles                             ; Off             ; Off           ;
+; Optimize IOC Register Placement for Timing                                 ; Normal          ; Normal        ;
+; Fitter Initial Placement Seed                                              ; 1               ; 1             ;
+; Slow Slew Rate                                                             ; Off             ; Off           ;
+; Force Fitter to Avoid Periphery Placement Warnings                         ; Off             ; Off           ;
++----------------------------------------------------------------------------+-----------------+---------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++--------------+
+; Pin-Out File ;
++--------------+
+The pin-out file can be found in C:/Users/n.avanzi/Documents/GitHub/DeMoN2/DeMoN_1.8/Quartus_a8/output_files/DeMoN.pin.
+
+
++--------------------------------------------------+
+; Fitter Resource Usage Summary                    ;
++------------------------------+-------------------+
+; Resource                     ; Usage             ;
++------------------------------+-------------------+
+; Logic cells                  ; 45 / 128 ( 35 % ) ;
+; Registers                    ; 0 / 128 ( 0 % )   ;
+; Number of pterms used        ; 102               ;
+; I/O pins                     ; 63 / 68 ( 93 % )  ;
+;     -- Clock pins            ; 0 / 2 ( 0 % )     ;
+;     -- Dedicated input pins  ; 0 / 2 ( 0 % )     ;
+;                              ;                   ;
+; Global signals               ; 0                 ;
+; Shareable expanders          ; 7 / 128 ( 5 % )   ;
+; Parallel expanders           ; 4 / 120 ( 3 % )   ;
+; Cells using turbo bit        ; 45 / 128 ( 35 % ) ;
+; Maximum fan-out              ; 23                ;
+; Highest non-global fan-out   ; 23                ;
+; Total fan-out                ; 589               ;
+; Average fan-out              ; 5.12              ;
++------------------------------+-------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Input Pins                                                                                                                                      ;
++-----------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
+; Name      ; Pin # ; I/O Bank ; LAB ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; I/O Standard ; Location assigned by ;
++-----------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
+; a1        ; 4     ; --       ; 1   ; 15                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a10       ; 15    ; --       ; 2   ; 1                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a11       ; 16    ; --       ; 2   ; 1                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a12       ; 17    ; --       ; 2   ; 17                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a13       ; 18    ; --       ; 2   ; 17                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a14       ; 20    ; --       ; 2   ; 17                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a15       ; 21    ; --       ; 2   ; 17                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a16       ; 22    ; --       ; 2   ; 17                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a17       ; 23    ; --       ; 3   ; 17                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a18       ; 24    ; --       ; 3   ; 21                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a19       ; 25    ; --       ; 3   ; 23                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a2        ; 5     ; --       ; 1   ; 15                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a20       ; 81    ; --       ; 8   ; 23                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a21       ; 80    ; --       ; 8   ; 21                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a22       ; 79    ; --       ; 8   ; 21                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a23       ; 77    ; --       ; 8   ; 21                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a3        ; 6     ; --       ; 1   ; 15                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a4        ; 8     ; --       ; 1   ; 15                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a5        ; 9     ; --       ; 1   ; 15                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a6        ; 10    ; --       ; 1   ; 15                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a7        ; 11    ; --       ; 1   ; 15                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a8        ; 12    ; --       ; 1   ; 15                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; a9        ; 14    ; --       ; 2   ; 15                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; as        ; 37    ; --       ; 4   ; 22                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; fc0       ; 27    ; --       ; 3   ; 8                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; fc1       ; 28    ; --       ; 3   ; 8                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; ft_rxf    ; 64    ; --       ; 7   ; 1                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; ft_txe    ; 63    ; --       ; 7   ; 1                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; jp1       ; 29    ; --       ; 3   ; 3                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; jp2       ; 30    ; --       ; 3   ; 1                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; lds       ; 35    ; --       ; 4   ; 1                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; r_w       ; 44    ; --       ; 5   ; 20                    ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; rst       ; 45    ; --       ; 5   ; 7                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; slomosw   ; 55    ; --       ; 6   ; 1                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; slomotick ; 31    ; --       ; 3   ; 1                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; sw1       ; 33    ; --       ; 4   ; 1                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
+; uds       ; 36    ; --       ; 4   ; 1                     ; 0                  ; no     ; no             ; TTL          ; User                 ;
++-----------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Output Pins                                                                                                                                                                                          ;
++------------------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+; Name             ; Pin # ; I/O Bank ; LAB ; Output Register ; Slow Slew Rate ; Open Drain ; TRI Primitive ; I/O Standard ; Location assigned by ; Load  ; Output Enable Source ; Output Enable Group ;
++------------------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+; bfd100triggering ; 69    ; --       ; 7   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; bfe001triggering ; 68    ; --       ; 7   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; cause0           ; 76    ; --       ; 8   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; cause1           ; 67    ; --       ; 7   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; dtack            ; 60    ; --       ; 6   ; no              ; no             ; yes        ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; ft_rd            ; 62    ; --       ; 6   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; ft_siwu          ; 65    ; --       ; 7   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; ft_wr            ; 61    ; --       ; 6   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; iack             ; 70    ; --       ; 7   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; ipl0             ; 46    ; --       ; 5   ; no              ; no             ; yes        ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; ipl1             ; 48    ; --       ; 5   ; no              ; no             ; yes        ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; ipl2             ; 49    ; --       ; 5   ; no              ; no             ; yes        ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; nmivec           ; 56    ; --       ; 6   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; oe               ; 39    ; --       ; 4   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; ovr              ; 58    ; --       ; 6   ; no              ; no             ; yes        ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; ovrdrive         ; 57    ; --       ; 6   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
+; ramce1           ; 54    ; --       ; 6   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; ramce2           ; 34    ; --       ; 4   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; romce1           ; 51    ; --       ; 5   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; romce2           ; 52    ; --       ; 5   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; runningflag      ; 75    ; --       ; 8   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; trigger          ; 74    ; --       ; 8   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
+; u3o13            ; 73    ; --       ; 8   ; no              ; no             ; no         ; no            ; TTL          ; User                 ; 10 pF ; -                    ; -                   ;
++------------------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Bidir Pins                                                                                                                                                                                                                                      ;
++------+-------+----------+-----+-----------------------+--------------------+--------+----------------+-----------------+----------------+------------+--------------+----------------------+-------+----------------------+---------------------+
+; Name ; Pin # ; I/O Bank ; LAB ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Output Register ; Slow Slew Rate ; Open Drain ; I/O Standard ; Location assigned by ; Load  ; Output Enable Source ; Output Enable Group ;
++------+-------+----------+-----+-----------------------+--------------------+--------+----------------+-----------------+----------------+------------+--------------+----------------------+-------+----------------------+---------------------+
+; d0   ; 40    ; --       ; 4   ; 1                     ; 0                  ; no     ; no             ; no              ; no             ; no         ; TTL          ; User                 ; 10 pF ; d0~13                ; -                   ;
+; d1   ; 41    ; --       ; 4   ; 1                     ; 0                  ; no     ; no             ; no              ; no             ; no         ; TTL          ; User                 ; 10 pF ; d0~13                ; -                   ;
+; hlt  ; 50    ; --       ; 5   ; 4                     ; 0                  ; no     ; no             ; no              ; no             ; yes        ; TTL          ; User                 ; 10 pF ; hlt~4 (inverted)     ; -                   ;
++------+-------+----------+-----+-----------------------+--------------------+--------+----------------+-----------------+----------------+------------+--------------+----------------------+-------+----------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------+
+; All Package Pins                                                                                        ;
++----------+------------+----------+------------------+--------+--------------+---------+-----------------+
+; Location ; Pad Number ; I/O Bank ; Pin Name/Usage   ; Dir.   ; I/O Standard ; Voltage ; User Assignment ;
++----------+------------+----------+------------------+--------+--------------+---------+-----------------+
+; 1        ; 0          ; --       ; GND+             ;        ;              ;         ;                 ;
+; 2        ; 1          ; --       ; GND+             ;        ;              ;         ;                 ;
+; 3        ; 2          ; --       ; VCCINT           ; power  ;              ; 5.0V    ;                 ;
+; 4        ; 3          ; --       ; a1               ; input  ; TTL          ;         ; Y               ;
+; 5        ; 4          ; --       ; a2               ; input  ; TTL          ;         ; Y               ;
+; 6        ; 5          ; --       ; a3               ; input  ; TTL          ;         ; Y               ;
+; 7        ; 6          ; --       ; GND              ; gnd    ;              ;         ;                 ;
+; 8        ; 7          ; --       ; a4               ; input  ; TTL          ;         ; Y               ;
+; 9        ; 8          ; --       ; a5               ; input  ; TTL          ;         ; Y               ;
+; 10       ; 9          ; --       ; a6               ; input  ; TTL          ;         ; Y               ;
+; 11       ; 10         ; --       ; a7               ; input  ; TTL          ;         ; Y               ;
+; 12       ; 11         ; --       ; a8               ; input  ; TTL          ;         ; Y               ;
+; 13       ; 12         ; --       ; VCCIO            ; power  ;              ; 5.0V    ;                 ;
+; 14       ; 13         ; --       ; a9               ; input  ; TTL          ;         ; Y               ;
+; 15       ; 14         ; --       ; a10              ; input  ; TTL          ;         ; Y               ;
+; 16       ; 15         ; --       ; a11              ; input  ; TTL          ;         ; Y               ;
+; 17       ; 16         ; --       ; a12              ; input  ; TTL          ;         ; Y               ;
+; 18       ; 17         ; --       ; a13              ; input  ; TTL          ;         ; Y               ;
+; 19       ; 18         ; --       ; GND              ; gnd    ;              ;         ;                 ;
+; 20       ; 19         ; --       ; a14              ; input  ; TTL          ;         ; Y               ;
+; 21       ; 20         ; --       ; a15              ; input  ; TTL          ;         ; Y               ;
+; 22       ; 21         ; --       ; a16              ; input  ; TTL          ;         ; Y               ;
+; 23       ; 22         ; --       ; a17              ; input  ; TTL          ;         ; Y               ;
+; 24       ; 23         ; --       ; a18              ; input  ; TTL          ;         ; Y               ;
+; 25       ; 24         ; --       ; a19              ; input  ; TTL          ;         ; Y               ;
+; 26       ; 25         ; --       ; VCCIO            ; power  ;              ; 5.0V    ;                 ;
+; 27       ; 26         ; --       ; fc0              ; input  ; TTL          ;         ; Y               ;
+; 28       ; 27         ; --       ; fc1              ; input  ; TTL          ;         ; Y               ;
+; 29       ; 28         ; --       ; jp1              ; input  ; TTL          ;         ; Y               ;
+; 30       ; 29         ; --       ; jp2              ; input  ; TTL          ;         ; Y               ;
+; 31       ; 30         ; --       ; slomotick        ; input  ; TTL          ;         ; Y               ;
+; 32       ; 31         ; --       ; GND              ; gnd    ;              ;         ;                 ;
+; 33       ; 32         ; --       ; sw1              ; input  ; TTL          ;         ; Y               ;
+; 34       ; 33         ; --       ; ramce2           ; output ; TTL          ;         ; Y               ;
+; 35       ; 34         ; --       ; lds              ; input  ; TTL          ;         ; Y               ;
+; 36       ; 35         ; --       ; uds              ; input  ; TTL          ;         ; Y               ;
+; 37       ; 36         ; --       ; as               ; input  ; TTL          ;         ; Y               ;
+; 38       ; 37         ; --       ; VCCIO            ; power  ;              ; 5.0V    ;                 ;
+; 39       ; 38         ; --       ; oe               ; output ; TTL          ;         ; Y               ;
+; 40       ; 39         ; --       ; d0               ; bidir  ; TTL          ;         ; Y               ;
+; 41       ; 40         ; --       ; d1               ; bidir  ; TTL          ;         ; Y               ;
+; 42       ; 41         ; --       ; GND              ; gnd    ;              ;         ;                 ;
+; 43       ; 42         ; --       ; VCCINT           ; power  ;              ; 5.0V    ;                 ;
+; 44       ; 43         ; --       ; r_w              ; input  ; TTL          ;         ; Y               ;
+; 45       ; 44         ; --       ; rst              ; input  ; TTL          ;         ; Y               ;
+; 46       ; 45         ; --       ; ipl0             ; output ; TTL          ;         ; Y               ;
+; 47       ; 46         ; --       ; GND              ; gnd    ;              ;         ;                 ;
+; 48       ; 47         ; --       ; ipl1             ; output ; TTL          ;         ; Y               ;
+; 49       ; 48         ; --       ; ipl2             ; output ; TTL          ;         ; Y               ;
+; 50       ; 49         ; --       ; hlt              ; bidir  ; TTL          ;         ; Y               ;
+; 51       ; 50         ; --       ; romce1           ; output ; TTL          ;         ; Y               ;
+; 52       ; 51         ; --       ; romce2           ; output ; TTL          ;         ; Y               ;
+; 53       ; 52         ; --       ; VCCIO            ; power  ;              ; 5.0V    ;                 ;
+; 54       ; 53         ; --       ; ramce1           ; output ; TTL          ;         ; Y               ;
+; 55       ; 54         ; --       ; slomosw          ; input  ; TTL          ;         ; Y               ;
+; 56       ; 55         ; --       ; nmivec           ; output ; TTL          ;         ; Y               ;
+; 57       ; 56         ; --       ; ovrdrive         ; output ; TTL          ;         ; N               ;
+; 58       ; 57         ; --       ; ovr              ; output ; TTL          ;         ; Y               ;
+; 59       ; 58         ; --       ; GND              ; gnd    ;              ;         ;                 ;
+; 60       ; 59         ; --       ; dtack            ; output ; TTL          ;         ; Y               ;
+; 61       ; 60         ; --       ; ft_wr            ; output ; TTL          ;         ; Y               ;
+; 62       ; 61         ; --       ; ft_rd            ; output ; TTL          ;         ; Y               ;
+; 63       ; 62         ; --       ; ft_txe           ; input  ; TTL          ;         ; Y               ;
+; 64       ; 63         ; --       ; ft_rxf           ; input  ; TTL          ;         ; Y               ;
+; 65       ; 64         ; --       ; ft_siwu          ; output ; TTL          ;         ; Y               ;
+; 66       ; 65         ; --       ; VCCIO            ; power  ;              ; 5.0V    ;                 ;
+; 67       ; 66         ; --       ; cause1           ; output ; TTL          ;         ; Y               ;
+; 68       ; 67         ; --       ; bfe001triggering ; output ; TTL          ;         ; Y               ;
+; 69       ; 68         ; --       ; bfd100triggering ; output ; TTL          ;         ; Y               ;
+; 70       ; 69         ; --       ; iack             ; output ; TTL          ;         ; Y               ;
+; 71       ; 70         ; --       ; RESERVED         ;        ;              ;         ;                 ;
+; 72       ; 71         ; --       ; GND              ; gnd    ;              ;         ;                 ;
+; 73       ; 72         ; --       ; u3o13            ; output ; TTL          ;         ; Y               ;
+; 74       ; 73         ; --       ; trigger          ; output ; TTL          ;         ; Y               ;
+; 75       ; 74         ; --       ; runningflag      ; output ; TTL          ;         ; Y               ;
+; 76       ; 75         ; --       ; cause0           ; output ; TTL          ;         ; Y               ;
+; 77       ; 76         ; --       ; a23              ; input  ; TTL          ;         ; Y               ;
+; 78       ; 77         ; --       ; VCCIO            ; power  ;              ; 5.0V    ;                 ;
+; 79       ; 78         ; --       ; a22              ; input  ; TTL          ;         ; Y               ;
+; 80       ; 79         ; --       ; a21              ; input  ; TTL          ;         ; Y               ;
+; 81       ; 80         ; --       ; a20              ; input  ; TTL          ;         ; Y               ;
+; 82       ; 81         ; --       ; GND              ; gnd    ;              ;         ;                 ;
+; 83       ; 82         ; --       ; GND+             ;        ;              ;         ;                 ;
+; 84       ; 83         ; --       ; GND+             ;        ;              ;         ;                 ;
++----------+------------+----------+------------------+--------+--------------+---------+-----------------+
+Note: Pin directions (input, output or bidir) are based on device operating in user mode.
+
+
++-----------------------------------------------+
+; Output Pin Default Load For Reported TCO      ;
++--------------+-------+------------------------+
+; I/O Standard ; Load  ; Termination Resistance ;
++--------------+-------+------------------------+
+; 3.3-V LVTTL  ; 10 pF ; Not Available          ;
+; 3.3-V LVCMOS ; 10 pF ; Not Available          ;
+; TTL          ; 10 pF ; Not Available          ;
++--------------+-------+------------------------+
+Note: User assignments will override these defaults. The user specified values are listed in the Output Pins and Bidir Pins tables.
+
+
++-------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                               ;
++----------------------------+------------+------+---------------------+--------------+
+; Compilation Hierarchy Node ; Macrocells ; Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+------------+------+---------------------+--------------+
+; |DeMoN                     ; 45         ; 63   ; |DeMoN              ; work         ;
++----------------------------+------------+------+---------------------+--------------+
+
+
++------------------------------------+
+; Non-Global High Fan-Out Signals    ;
++--------------------------+---------+
+; Name                     ; Fan-Out ;
++--------------------------+---------+
+; a20                      ; 23      ;
+; a19                      ; 23      ;
+; as                       ; 22      ;
+; a23                      ; 21      ;
+; a22                      ; 21      ;
+; a21                      ; 21      ;
+; a18                      ; 21      ;
+; r_w                      ; 20      ;
+; a17                      ; 17      ;
+; a16                      ; 17      ;
+; a15                      ; 17      ;
+; a14                      ; 17      ;
+; a13                      ; 17      ;
+; a12                      ; 17      ;
+; runningflag~15           ; 16      ;
+; a11~1                    ; 15      ;
+; a10~1                    ; 15      ;
+; a9                       ; 15      ;
+; a8                       ; 15      ;
+; a7                       ; 15      ;
+; a6                       ; 15      ;
+; a5                       ; 15      ;
+; a4                       ; 15      ;
+; a3                       ; 15      ;
+; a2                       ; 15      ;
+; a1                       ; 15      ;
+; trigger~31               ; 13      ;
+; fc1                      ; 8       ;
+; fc0                      ; 8       ;
+; lds~1                    ; 7       ;
+; rst                      ; 7       ;
+; nmivec~10                ; 7       ;
+; uds~1                    ; 5       ;
+; hlt~0                    ; 4       ;
+; sw1~1                    ; 3       ;
+; cause1$latch~8           ; 3       ;
+; jp1                      ; 3       ;
+; bfd100triggering$latch~6 ; 3       ;
+; bfe001triggering$latch~6 ; 3       ;
+; u3o13~8                  ; 3       ;
+; cause0$latch~6           ; 3       ;
+; romce1~11bal             ; 2       ;
+; always0~5                ; 2       ;
+; d0~13                    ; 2       ;
+; u3o13~35                 ; 1       ;
+; d1~0                     ; 1       ;
+; d0~0                     ; 1       ;
+; ft_rxf                   ; 1       ;
+; ft_txe                   ; 1       ;
+; uds                      ; 1       ;
+; lds                      ; 1       ;
+; slomotick                ; 1       ;
+; jp2                      ; 1       ;
+; sw1                      ; 1       ;
+; slomosw                  ; 1       ;
+; a11                      ; 1       ;
+; a10                      ; 1       ;
+; trigger~18sexpbal        ; 1       ;
+; cause0~1sexp1bal         ; 1       ;
+; cause1~2sexp1            ; 1       ;
+; nmivec~9sexp             ; 1       ;
+; bfd100triggering~1sexp   ; 1       ;
+; bfe001triggering~1sexp   ; 1       ;
+; u3o13~4sexp              ; 1       ;
+; nmivec~5sexpand1         ; 1       ;
+; ramce2~12                ; 1       ;
+; ramce2~10                ; 1       ;
+; ramce1~15                ; 1       ;
+; ramce1~13                ; 1       ;
+; dtack~7                  ; 1       ;
+; romce2~7                 ; 1       ;
+; romce1~15                ; 1       ;
+; ovr~9                    ; 1       ;
+; romce1~9                 ; 1       ;
+; trigger~37               ; 1       ;
+; trigger~35               ; 1       ;
+; trigger~33               ; 1       ;
+; trigger~25               ; 1       ;
+; trigger~23               ; 1       ;
+; trigger~20               ; 1       ;
+; ramce2~3                 ; 1       ;
+; ramce1~6                 ; 1       ;
+; ft_siwu~2                ; 1       ;
+; ft_wr~3                  ; 1       ;
+; ft_rd~5                  ; 1       ;
+; cause1$latch~6           ; 1       ;
+; runningflag~7            ; 1       ;
+; r_w~1                    ; 1       ;
+; iack~3                   ; 1       ;
+; hlt~4                    ; 1       ;
+; d1~5                     ; 1       ;
+; d0~6                     ; 1       ;
++--------------------------+---------+
+
+
++--------------------------------------------------+
+; Other Routing Usage Summary                      ;
++-----------------------------+--------------------+
+; Other Routing Resource Type ; Usage              ;
++-----------------------------+--------------------+
+; Output enables              ; 1 / 6 ( 17 % )     ;
+; PIA buffers                 ; 169 / 288 ( 59 % ) ;
+; PIAs                        ; 227 / 288 ( 79 % ) ;
++-----------------------------+--------------------+
+
+
++-----------------------------------------------------------------------------+
+; LAB External Interconnect                                                   ;
++-----------------------------------------------+-----------------------------+
+; LAB External Interconnects  (Average = 28.38) ; Number of LABs  (Total = 8) ;
++-----------------------------------------------+-----------------------------+
+; 0 - 2                                         ; 0                           ;
+; 3 - 5                                         ; 0                           ;
+; 6 - 8                                         ; 0                           ;
+; 9 - 11                                        ; 0                           ;
+; 12 - 14                                       ; 0                           ;
+; 15 - 17                                       ; 1                           ;
+; 18 - 20                                       ; 1                           ;
+; 21 - 23                                       ; 0                           ;
+; 24 - 26                                       ; 0                           ;
+; 27 - 29                                       ; 0                           ;
+; 30 - 32                                       ; 5                           ;
+; 33 - 35                                       ; 1                           ;
++-----------------------------------------------+-----------------------------+
+
+
++----------------------------------------------------------------------+
+; LAB Macrocells                                                       ;
++----------------------------------------+-----------------------------+
+; Number of Macrocells  (Average = 5.63) ; Number of LABs  (Total = 8) ;
++----------------------------------------+-----------------------------+
+; 0                                      ; 0                           ;
+; 1                                      ; 0                           ;
+; 2                                      ; 0                           ;
+; 3                                      ; 0                           ;
+; 4                                      ; 3                           ;
+; 5                                      ; 1                           ;
+; 6                                      ; 3                           ;
+; 7                                      ; 0                           ;
+; 8                                      ; 0                           ;
+; 9                                      ; 0                           ;
+; 10                                     ; 1                           ;
++----------------------------------------+-----------------------------+
+
+
++---------------------------------------------------------+
+; Parallel Expander                                       ;
++--------------------------+------------------------------+
+; Parallel Expander Length ; Number of Parallel Expanders ;
++--------------------------+------------------------------+
+; 0                        ; 0                            ;
+; 1                        ; 0                            ;
+; 2                        ; 2                            ;
++--------------------------+------------------------------+
+
+
++-------------------------------------------------------------------------------+
+; Shareable Expander                                                            ;
++-------------------------------------------------+-----------------------------+
+; Number of shareable expanders  (Average = 0.88) ; Number of LABs  (Total = 5) ;
++-------------------------------------------------+-----------------------------+
+; 0                                               ; 3                           ;
+; 1                                               ; 3                           ;
+; 2                                               ; 2                           ;
++-------------------------------------------------+-----------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Logic Cell Interconnection                                                                                                                                                                                                                                                                                                                                         ;
++-----+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; LAB ; Logic Cell ; Input                                                                                                                                                           ; Output                                                                                                                                                                        ;
++-----+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+;  A  ; LC11       ; r_w, a3, a19, a23, a21, a22, a18, a20, a13, a14, a15, a16, a17, a1, a2, a4, a5, a6, a7, a9, a10~1, a11~1, a8, a12, as, runningflag~15                           ; d0, d1                                                                                                                                                                        ;
+;  A  ; LC4        ; a3, a13, a14, a15, a16, a17, a1, a2, a4, a5, a6, a7, a9, a10~1, a11~1, a8, a12, jp1, runningflag~15                                                             ; romce1~15, romce2~7                                                                                                                                                           ;
+;  A  ; LC12       ; uds                                                                                                                                                             ; trigger~23, romce2~7, ramce2~10, ramce2~12, cause1~2sexp1                                                                                                                     ;
+;  A  ; LC1        ; a13, lds~1, as, r_w, a3, a18, a1, a2, a4, a5, a6, a7, a9, a10~1, a11~1, a14, a15, a16, a17, a19, a20, a23, a21, a22, a8, a12                                    ; trigger~31                                                                                                                                                                    ;
+;  A  ; LC15       ; lds                                                                                                                                                             ; ft_wr~3, ft_siwu~2, trigger~20, romce1~15, ramce1~13, ramce1~15, cause0~1sexp1bal                                                                                             ;
+;  A  ; LC16       ; a11                                                                                                                                                             ; d0~6, d0~13, d1~5, ft_rd~5, ft_wr~3, ft_siwu~2, trigger~20, trigger~23, ramce1~15, ramce2~12, always0~5, trigger~25, cause1~2sexp1, cause0~1sexp1bal, romce1~11bal            ;
+;  B  ; LC21       ; a13, lds~1, as, r_w, a3, a18, a1, a2, a4, a5, a6, a7, a9, a10~1, a11~1, a14, a15, a16, a17, a19, a20, a23, a21, a22, a8, a12                                    ; cause0$latch~6                                                                                                                                                                ;
+;  B  ; LC20       ; fc0, as, a18, rst, hlt, a23, a21, a22, a19, a20, u3o13~4sexp                                                                                                    ; runningflag~15                                                                                                                                                                ;
+;  B  ; LC26       ; sw1                                                                                                                                                             ; trigger~31, cause0$latch~6, cause1$latch~6                                                                                                                                    ;
+;  B  ; LC24       ; a10                                                                                                                                                             ; d0~6, d0~13, d1~5, ft_rd~5, ft_wr~3, ft_siwu~2, trigger~20, trigger~23, ramce1~15, ramce2~12, always0~5, trigger~25, cause1~2sexp1, cause0~1sexp1bal, romce1~11bal            ;
+;  C  ; LC35       ; a3, a19, a21, a22, a23, u3o13~8, a18, a20, a13, a14, a15, a16, a17, a1, a2, a4, a5, a6, a7, a9, a10~1, a11~1, a8, a12                                           ; trigger~31                                                                                                                                                                    ;
+;  C  ; LC34       ; r_w, as, runningflag~15, rst, a3, a19, a23, a21, a22, a18, a20, a13, a14, a15, a16, a17, a1, a2, a4, a5, a6, a7, a9, a10~1, a11~1, a8, a12                      ; bfe001triggering$latch~6, bfd100triggering$latch~6                                                                                                                            ;
+;  C  ; LC41       ; a8, a12, a13, uds~1, r_w, a3, a18, a1, a2, a4, a5, a6, a7, a9, a10~1, a11~1, a14, a15, a16, a17, a19, a20, a23, a21, a22                                        ; trigger~31                                                                                                                                                                    ;
+;  C  ; LC33       ; runningflag~15, cause1$latch~8, cause1~2sexp1, sw1~1                                                                                                            ; cause1$latch~8                                                                                                                                                                ;
+;  D  ; LC51       ; cause1$latch~8, r_w, a3, a19, a23, a21, a22, a18, a20, a13, a14, a15, a16, a17, a1, a2, a4, a5, a6, a7, a9, a10~1, a11~1, a8, a12, as, runningflag~15, ft_txe   ; d0                                                                                                                                                                            ;
+;  D  ; LC49       ; cause0$latch~6, r_w, a3, a19, a23, a21, a22, a18, a20, a13, a14, a15, a16, a17, a1, a2, a4, a5, a6, a7, a9, a10~1, a11~1, a8, a12, as, runningflag~15, ft_rxf   ; d1                                                                                                                                                                            ;
+;  D  ; LC60       ; ramce2~10, uds~1, a21, a23, a4, a5, a6, a7, a8, a9, a10~1, a11~1, a14, a15, a16, a17, a12, a13, a19, a20, jp1, runningflag~15, a22                              ; ramce2~3                                                                                                                                                                      ;
+;  D  ; LC61       ; ramce2~12, a19, a20, a18, a21, as                                                                                                                               ; ramce2                                                                                                                                                                        ;
+;  D  ; LC53       ; r_w                                                                                                                                                             ; oe                                                                                                                                                                            ;
+;  D  ; LC59       ; r_w, uds~1, a23, a14, a15, a16, a17, a12, a13, a22, a19, a20, a18, as                                                                                           ; ramce2~12                                                                                                                                                                     ;
+;  E  ; LC75       ; slomosw, slomotick, runningflag~15                                                                                                                              ; hlt                                                                                                                                                                           ;
+;  E  ; LC72       ; trigger~31                                                                                                                                                      ; ipl1                                                                                                                                                                          ;
+;  E  ; LC73       ; trigger~31                                                                                                                                                      ; ipl2                                                                                                                                                                          ;
+;  E  ; LC77       ; fc1, r_w, trigger~31, nmivec~10, fc0, lds~1, as, romce1~11bal, a19, a23, a21, a22, a18, a20                                                                     ; romce1                                                                                                                                                                        ;
+;  E  ; LC80       ; fc1, r_w, trigger~31, nmivec~10, fc0, uds~1, as, romce1~11bal, a19, a23, a21, a22, a18, a20                                                                     ; romce2                                                                                                                                                                        ;
+;  E  ; LC69       ; trigger~31                                                                                                                                                      ; ipl0                                                                                                                                                                          ;
+;  F  ; LC86       ; trigger~31, nmivec~9sexp                                                                                                                                        ; nmivec, romce1~9, ovr~9, romce1~15, romce2~7, dtack~7, nmivec~9sexp                                                                                                           ;
+;  F  ; LC91       ; fc1, r_w, trigger~31, nmivec~10, fc0, as, a18, a23, a21, a22, a19, a20                                                                                          ; ovr                                                                                                                                                                           ;
+;  F  ; LC93       ; fc1, r_w, trigger~31, nmivec~10, fc0, as, a18, a23, a21, a22, a19, a20                                                                                          ; dtack                                                                                                                                                                         ;
+;  F  ; LC81       ; r_w, lds~1, a23, a14, a15, a16, a17, a12, a13, a22, a19, a20, a18, as                                                                                           ; ramce1~15                                                                                                                                                                     ;
+;  F  ; LC82       ; ramce1~13, lds~1, a21, a23, a4, a5, a6, a7, a8, a9, a10~1, a11~1, a14, a15, a16, a17, a12, a13, a19, a20, jp1, runningflag~15, a22                              ; ramce1~6                                                                                                                                                                      ;
+;  F  ; LC88       ; fc1, r_w, trigger~31, nmivec~10, fc0, as                                                                                                                        ; ovrdrive                                                                                                                                                                      ;
+;  F  ; LC84       ; a1, a2, a3, fc1, fc0, as                                                                                                                                        ; trigger~31                                                                                                                                                                    ;
+;  F  ; LC83       ; ramce1~15, a19, a20, a18, a21, as                                                                                                                               ; ramce1                                                                                                                                                                        ;
+;  F  ; LC94       ; a1, lds~1, r_w, a2, a3, a4, a5, a6, a7, a8, a9, a10~1, a11~1, a18, a14, a15, a16, a17, a19, a20, a23, a21, a22, a12, a13, as, runningflag~15                    ; ft_wr                                                                                                                                                                         ;
+;  F  ; LC96       ; a1, r_w, a2, a3, a4, a5, a6, a7, a8, a9, a10~1, a11~1, a18, a14, a15, a16, a17, a19, a20, a23, a21, a22, a12, a13, as, runningflag~15                           ; ft_rd                                                                                                                                                                         ;
+;  G  ; LC109      ; a1, a2, a3, fc1                                                                                                                                                 ; iack                                                                                                                                                                          ;
+;  G  ; LC107      ; always0~5, bfd100triggering$latch~6, bfd100triggering~1sexp                                                                                                     ; bfd100triggering$latch~6, bfd100triggering, trigger~31                                                                                                                        ;
+;  G  ; LC105      ; always0~5, bfe001triggering$latch~6, bfe001triggering~1sexp                                                                                                     ; bfe001triggering$latch~6, bfe001triggering, trigger~31                                                                                                                        ;
+;  G  ; LC101      ; a1, lds~1, r_w, a2, a3, a4, a5, a6, a7, a8, a9, a10~1, a11~1, a18, a14, a15, a16, a17, a19, a20, a23, a21, a22, a12, a13, as, runningflag~15                    ; ft_siwu                                                                                                                                                                       ;
+;  G  ; LC104      ; cause1$latch~6                                                                                                                                                  ; d0~6, cause1$latch~6, cause1                                                                                                                                                  ;
+;  H  ; LC118      ; runningflag~15, runningflag~7, trigger~31                                                                                                                       ; d0~6, d0~13, d1~5, hlt~4, runningflag~15, runningflag, cause0$latch~6, cause1$latch~6, ft_rd~5, ft_wr~3, ft_siwu~2, always0~5, trigger~31, ramce1~15, ramce2~12, romce1~11bal ;
+;  H  ; LC120      ; runningflag~15, cause0$latch~6, cause0~1sexp1bal, sw1~1                                                                                                         ; d1~5, cause0$latch~6, cause0                                                                                                                                                  ;
+;  H  ; LC117      ; trigger~31, sw1~1, jp2, runningflag~15, trigger~20, bfe001triggering$latch~6, bfd100triggering$latch~6, trigger~23, as, trigger~25, u3o13~35, trigger~18sexpbal ; runningflag~15, u3o13~8, trigger~31, trigger, trigger~33, trigger~35, trigger~37, nmivec~10, romce1~9, ovr~9, romce1~15, romce2~7, dtack~7                                    ;
+;  H  ; LC115      ; u3o13~8, trigger~31, rst, hlt                                                                                                                                   ; u3o13~8, u3o13, trigger~25                                                                                                                                                    ;
++-----+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------+
+; Fitter Device Options                                         ;
++----------------------------------------------+----------------+
+; Option                                       ; Setting        ;
++----------------------------------------------+----------------+
+; Enable user-supplied start-up clock (CLKUSR) ; Off            ;
+; Enable device-wide reset (DEV_CLRn)          ; Off            ;
+; Enable device-wide output enable (DEV_OE)    ; Off            ;
+; Enable INIT_DONE output                      ; Off            ;
+; Configuration scheme                         ; Passive Serial ;
+; Security bit                                 ; Off            ;
+; Base pin-out file on sameframe device        ; Off            ;
++----------------------------------------------+----------------+
+
+
++-----------------+
+; Fitter Messages ;
++-----------------+
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (119006): Selected device EPM7128SLC84-15 for design "DeMoN"
+Warning (163076): Macrocell buffer inserted after node "cause1$latch~6"
+Warning (163076): Macrocell buffer inserted after node "a10"
+Warning (163076): Macrocell buffer inserted after node "sw1"
+Warning (163076): Macrocell buffer inserted after node "a11"
+Warning (163076): Macrocell buffer inserted after node "lds"
+Warning (163076): Macrocell buffer inserted after node "uds"
+Warning (163076): Macrocell buffer inserted after node "a10"
+Warning (163076): Macrocell buffer inserted after node "sw1"
+Warning (163076): Macrocell buffer inserted after node "a11"
+Warning (163076): Macrocell buffer inserted after node "lds"
+Warning (163076): Macrocell buffer inserted after node "uds"
+Info: Quartus II 64-Bit Fitter was successful. 0 errors, 12 warnings
+    Info: Peak virtual memory: 4654 megabytes
+    Info: Processing ended: Wed Sep 24 09:02:35 2025
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

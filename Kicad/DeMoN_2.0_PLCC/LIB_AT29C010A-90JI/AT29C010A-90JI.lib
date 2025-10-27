@@ -1,0 +1,53 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AT29C010A-90JI
+#/2211737/647024/2.50/32/3/Integrated Circuit
+DEF AT29C010A-90JI IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "AT29C010A-90JI" 1050 500 50 H V L CNN
+F2 "PLCC127P1245X1499X356-32N" 1050 400 50 H I L CNN
+F3 "https://www.mouser.de/datasheet/2/268/Atmel_AT29C010A-1180240.pdf" 1050 300 50 H I L CNN
+F4 " Fast Read Access Time  70 ns  5-volt Only Reprogramming  Sector Program Operation  Single Cycle Reprogram (Erase and Program)  1024 Sectors (128 Bytes/sector)  Internal Address and Data Latches for 128 Bytes  Two 8K Bytes Boot Blocks with Lockout  Internal Program Control and Timer  Hardware and Software Data Protection  Fast Sector Program Cycle Time  10 ms  DATA Polling for End of Program Detection  Low Power Dissipation  50 mA Active Current  100 A CMOS Standby Current  T" 1050 200 50 H I L CNN "Description"
+F5 "3.556" 1050 100 50 H I L CNN "Height"
+F6 "556-AT29C010A-90JI" 1050 0 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/AT29C010A-90JI?qs=RoBsvebQnoGCogcWr4xHGw%3D%3D" 1050 -100 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 1050 -200 50 H I L CNN "Manufacturer_Name"
+F9 "AT29C010A-90JI" 1050 -300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC_1 1 600 600 200 D 50 50 0 0 P
+X A16 2 500 600 200 D 50 50 0 0 P
+X A15 3 400 600 200 D 50 50 0 0 P
+X A12 4 300 600 200 D 50 50 0 0 P
+X A7 5 0 0 200 R 50 50 0 0 P
+X A6 6 0 -100 200 R 50 50 0 0 P
+X A5 7 0 -200 200 R 50 50 0 0 P
+X A4 8 0 -300 200 R 50 50 0 0 P
+X A3 9 0 -400 200 R 50 50 0 0 P
+X A2 10 0 -500 200 R 50 50 0 0 P
+X A1 11 0 -600 200 R 50 50 0 0 P
+X A0 12 0 -700 200 R 50 50 0 0 P
+X I/O0 13 0 -800 200 R 50 50 0 0 P
+X I/O1 14 300 -1400 200 U 50 50 0 0 P
+X I/O2 15 400 -1400 200 U 50 50 0 0 P
+X GND 16 500 -1400 200 U 50 50 0 0 P
+X I/O3 17 600 -1400 200 U 50 50 0 0 P
+X I/O4 18 700 -1400 200 U 50 50 0 0 P
+X I/O5 19 800 -1400 200 U 50 50 0 0 P
+X I/O6 20 900 -1400 200 U 50 50 0 0 P
+X I/O7 21 1200 -800 200 L 50 50 0 0 P
+X ~CE 22 1200 -700 200 L 50 50 0 0 P
+X A10 23 1200 -600 200 L 50 50 0 0 P
+X ~OE 24 1200 -500 200 L 50 50 0 0 P
+X A11 25 1200 -400 200 L 50 50 0 0 P
+X A9 26 1200 -300 200 L 50 50 0 0 P
+X A8 27 1200 -200 200 L 50 50 0 0 P
+X A13 28 1200 -100 200 L 50 50 0 0 P
+X A14 29 1200 0 200 L 50 50 0 0 P
+X NC_2 30 900 600 200 D 50 50 0 0 P
+X ~WE 31 800 600 200 D 50 50 0 0 P
+X VCC 32 700 600 200 D 50 50 0 0 P
+P 5 0 1 6 200 400 1000 400 1000 -1200 200 -1200 200 400 N
+ENDDRAW
+ENDDEF
+#
+#End Library

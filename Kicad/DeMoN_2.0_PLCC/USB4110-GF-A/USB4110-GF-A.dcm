@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USB4110-GF-A
+D CONN USB 2.0 TYPE-C R/A SMT
+K
+F https://gct.co/files/drawings/usb4110.pdf
+$ENDCMP
+#
+#End Doc Library

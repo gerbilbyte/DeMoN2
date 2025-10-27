@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT29C010A12PC
+D Flash EPROM,AT29C010-12PC 128Kx8bit 1Mb
+K
+F 
+$ENDCMP
+#
+#End Doc Library

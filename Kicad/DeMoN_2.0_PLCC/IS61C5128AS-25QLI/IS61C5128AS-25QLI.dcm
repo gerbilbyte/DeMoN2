@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IS61C5128AS-25QLI
+D SRAM 4Mb,High-Speed,Low Power,Async,512K x 8,25ns,5v,32 Pin SOP (450 mil), RoHS
+K
+F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
+$ENDCMP
+#
+#End Doc Library
