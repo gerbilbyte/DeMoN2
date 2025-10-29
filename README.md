@@ -7,7 +7,7 @@
 The DeMoN II is hobby cartridge that was developed as a collaboration between three geeks who have a very healthy obsession with the Amiga, and skilled in both software and hardware development alike. It can be described as an Action Replay on steroids.
 It is the successor of the original DeMoN cartridge that can be found [here](https://github.com/gerbilbyte/DeMoN/).
 
-![image](https://github.com/user-attachments/assets/98fd00ce-8cad-4ac1-be52-16d5208ba2aa)
+![image](https://github.com/user-attachments/assets/001942ef-dd48-4f5c-beaa-1a473ea1d723)
 
 This project will give a brief introduction, how it came to be, its features and plans so that you can build your own.
 
@@ -119,7 +119,8 @@ In this project you can find the KiCad files that are used to build the PCBs for
 To make things even easier, Gerber files have also been included that you can use to send directly to your favourite freindly, or unfriendly, PCB manufacturer.
 
 
-[![image](https://github.com/user-attachments/assets/6ff6edc8-36b6-45ae-bedc-bced24ccb2cd)
+![image](https://github.com/user-attachments/assets/1ab1fce4-e291-4f5c-9552-6078dac785b3)
+
 Follow this link to build the DeMoN2](https://github.com/gerbilbyte/DeMoN2/tree/main/Kicad/DeMoN_2.0_PLCC)
 
 I actually don't need to write any more about how to build one, the rest is quite straight forward.
