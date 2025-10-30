@@ -86,8 +86,7 @@ DeMoN II cart is only compatible with A500 and A500+ computers.
 
 Tested and works with chipsets:
  * 68010
- * TF536
- * 68030
+ * TF536 (68030)
 
 It has been tested on the following kickstarts:
  * 1.3
