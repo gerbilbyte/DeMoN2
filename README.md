@@ -19,9 +19,9 @@ This project will give a brief introduction, how it came to be, its features and
 
 [Compatibility](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#compatibility)
 
-[DeMoN II User Manual](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#demon-user-manual)
+[DeMoN II User Manual](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#demon-ii-user-manual)
 
-[Build Your Own](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#build-your-own-demon-cartridge)
+[Build Your Own](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#build-your-own-demon-ii-cartridge)
 
 * [Firmware](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#firmware) 
 * [Flashing](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#flashing) 
@@ -116,7 +116,7 @@ A direct link to the manual can be found [here](https://github.com/dmcoles/Actio
 
 
 
-## Build Your Own DeMoN II Cartridge.
+## Build Your Own DeMoN II Cartridge
 
 If you want to build your own then you will need the following:
 * Soldering Iron
