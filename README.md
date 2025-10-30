@@ -15,11 +15,11 @@ This project will give a brief introduction, how it came to be, its features and
 
 [A Brief History](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#a-brief-history) (the boring bit. In fact, skip over this bit).
 
-[DeMoN features](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#features)
+[DeMoN II features](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#features)
 
 [Compatibility](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#compatibility)
 
-[DeMoN User Manual](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#demon-user-manual)
+[DeMoN II User Manual](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#demon-user-manual)
 
 [Build Your Own](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#build-your-own-demon-cartridge)
 
@@ -87,7 +87,7 @@ DeMoN II cart is only compatible with A500 and A500+ computers.
 Tested and works with chipsets:
  * 68010
  * TF536
- * 68030.
+ * 68030
 
 It has been tested on the following kickstarts:
  * 1.3
@@ -103,7 +103,7 @@ It is also compatible with any memory expansions and disk controllers.
 
 Tested and works with:
  * 8MB GottaGoFastRam
- * GVP Impact A2000-HC+8 Series II.
+ * GVP Impact A2000-HC+8 Series II
 
 We are currently working on expanding this, so watch this space!
 
