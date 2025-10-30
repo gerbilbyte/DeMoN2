@@ -13,22 +13,22 @@ This project will give a brief introduction, how it came to be, its features and
 
 ## Contents
 
-[A Brief History](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#a-brief-history) (the boring bit. In fact, skip over this bit).
+[A Brief History](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#a-brief-history) (the boring bit. In fact, skip over this bit).
 
-[DeMoN features](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#features)
+[DeMoN features](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#features)
 
-[Compatibility](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#compatibility)
+[Compatibility](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#compatibility)
 
-[DeMoN User Manual](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#demon-user-manual)
+[DeMoN User Manual](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#demon-user-manual)
 
-[Build Your Own](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#build-your-own-demon-cartridge)
+[Build Your Own](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#build-your-own-demon-cartridge)
 
-* [Firmware](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#firmware) 
-* [Flashing](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#flashing) 
-* [Cartridge Case](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#cartridge-case)
-* [License](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#license)
+* [Firmware](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#firmware) 
+* [Flashing](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#flashing) 
+* [Cartridge Case](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#cartridge-case)
+* [License](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#license)
    
-[Related Projects](https://github.com/gerbilbyte/DeMoN/blob/main/README.md#related-projects)
+[Related Projects](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#related-projects)
 
 
 
@@ -84,6 +84,11 @@ See the [manual](https://github.com/dmcoles/ActionReplay5/blob/main/Action%20Rep
 
 DeMoN II cart is only compatible with A500 and A500+ computers.
 
+Tested and works with chipsets:
+ * 68010
+ * TF536
+ * 68030.
+
 It has been tested on the following kickstarts:
  * 1.3
  * 2.04
@@ -93,6 +98,12 @@ It has been tested on the following kickstarts:
  * 3.x
  * 3.1.4
  * 3.2.x
+
+It is also compatible with any memory expansions and disk controllers.
+
+Tested and works with:
+ * 8MB GottaGoFastRam
+ * GVP Impact A2000-HC+8 Series II.
 
 We are currently working on expanding this, so watch this space!
 
@@ -135,7 +146,7 @@ The CLPD will also need to be programmed, and this can be done using a seperate 
 This repo does not contain firmware, but it does contain a patch file that can be used to patch the original Action Replay III (version 3.17) ROM.
 Tools are included with instructions in this repo on how to patch an Action Replay III ROM file.
 
-DeMoN uses Action Replay firmware, including modified firmware and homebrews. The latest version of the DeMoN (Action Replay 5) firmware is available on REbEL's GitHub repo which can be found [here](https://github.com/dmcoles/ActionReplay5).
+Due to changes in hardware, the DeMoN II firmware will not work with the original DeMoN or Action Replay 3/5 cart. From versions 5.2.0 onwards, DeMoN II firmware will be packaged in the same release archive as the Action Replay 5 firmware found on REbEL's GitHub repo which can be found [here](https://github.com/dmcoles/ActionReplay5).
 
 
 ### Flashing.
