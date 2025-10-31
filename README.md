@@ -23,7 +23,9 @@ This project will give a brief introduction, how it came to be, its features and
 
 [Build Your Own](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#build-your-own-demon-ii-cartridge)
 
-* [Firmware](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#firmware) 
+* [Firmware](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#firmware)
+  * [CLPD](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#clpd)
+  * [DeMoN II](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#demon-ii-rom)
 * [Flashing](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#flashing) 
 * [Cartridge Case](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#cartridge-case)
 * [License](https://github.com/gerbilbyte/DeMoN2/blob/main/README.md#license)
