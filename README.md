@@ -140,11 +140,11 @@ I actually don't need to write any more about how to build one, the rest is quit
 
 Once built, your cartridge will now need firmware.
 
-####CLPD
+#### CLPD
 The CLPD will also need to be programmed, and this can be done using a seperate programmer such as an ATF Programmer (Details of the AFT that we used can be found at the bottom of this repo).
 The CLPD can be programmed with the [DeMoN.jed](https://github.com/gerbilbyte/DeMoN2/blob/main/Quartus/output_files/DeMoN.jed) file that can be found in the folder [here](https://github.com/gerbilbyte/DeMoN2/blob/main/Quartus/output_files).
 
-####DeMoN II ROM
+#### DeMoN II ROM
 This repo does not contain firmware, but it does contain a patch file that can be used to patch the original Action Replay III (version 3.17) ROM.
 Tools are included with instructions in this repo on how to patch an Action Replay III ROM file.
 
